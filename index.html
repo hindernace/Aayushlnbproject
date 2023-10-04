@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>My Greetings App</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="icon" href="assets/favicon.png" />
+		<script src="main.js" defer></script>
+	</head>
+	<body>
+		<div class="wood-bg"></div>
+		<main class="content">
+			<div class="section-one">
+				<div class="greet-form">
+					<div class="heading-ribbon"></div>
+					<div class="input-field">
+						<h5>Your Name</h5>
+						<br />
+						<input
+							type="text"
+							class="input-box name-input"
+							placeholder="Enter Name "
+						/>
+					</div>
+					<br />
+					<div class="input-field">
+						<h5>Your Greeting Message</h5>
+						<br />
+						<textarea
+							class="input-box message-input"
+							rows="5"
+							maxlength="100"
+							placeholder="Enter Greeting Message"
+						></textarea>
+					</div>
+					<br />
+					<button type="submit" class="submit-btn">Submit</button>
+					<br />
+					<button type="submit" class="clear-btn">
+						Clear all cards
+					</button>
+				</div>
+			</div>
+			<div class="section-two">
+				<h2>Greetings</h2>
+				<div id="greet-responses"></div>
+			</div>
+		</main>
+	</body>
+</html>
